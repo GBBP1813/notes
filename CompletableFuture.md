@@ -136,7 +136,7 @@ System.out.println(future4.get());
 
 **转换**
 
-thenApply会把原来CompletableFuture计算的结果传给函数fn，将fn的结果作为新的CompletableFuture的计算结果，即CompletableFuture<T> 转化成了CompletableFuture<U>  
+thenApply会把原来CompletableFuture计算的结果传给函数fn，将fn的结果作为新的CompletableFuture的计算结果，即CompletableFuture\<T> 转化成了CompletableFuture\<U>  
 
 ```java
 public <U> CompletableFuture<U> thenApply(Function<? super T,? extends U> fn)
