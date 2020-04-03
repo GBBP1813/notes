@@ -250,7 +250,7 @@ CompletableFuture的方法还有很多,大概有60多个，这里就不一一赘
 
 我们就可以进行如下改进：
 
-![性能优化](/Users/guanyangfna/Downloads/性能优化.jpg)
+![性能优化](https://github.com/GBBP1813/notes/blob/master/picture/性能优化.jpg)
 
 可把大量的请求先放进一个阻塞丢列，而不是来一个请求就去调用查询接口，而后用定时任务每隔一定时间去队列
 
