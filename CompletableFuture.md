@@ -240,7 +240,7 @@ CompletableFuture的方法还有很多,大概有60多个，这里就不一一赘
 
 我们可以利用CompletableFuture对系统性能以及吞吐量上进行优化。我相信很多的同学系统一般会这样设计：
 
-![优化前](/Users/guanyangfna/Downloads/优化前.jpg)
+![优化前]([https://github.com/GBBP1813/notes/blob/master/picture/%E4%BC%98%E5%8C%96%E5%89%8D.jpg](https://github.com/GBBP1813/notes/blob/master/picture/优化前.jpg))
 
 这样会有什么问题呢
 
